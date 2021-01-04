@@ -7,9 +7,6 @@ use EAddonsForElementor\Base\Module_Base;
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
-// Url of plugin
-define('E_ADDONS_PROTO_URL', plugins_url('/', __FILE__));
-
 
 class Proto extends Module_Base {
 
