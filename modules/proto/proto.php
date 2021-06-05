@@ -12,8 +12,8 @@ class Proto extends Module_Base {
 
     public function __construct() {
         parent::__construct();
-        add_action('elementor/editor/after_enqueue_scripts', [$this, 'enqueue_editor_assets']);        
-        add_action('elementor/frontend/before_enqueue_styles', [$this, 'register_libs']);
+        //add_action('elementor/editor/after_enqueue_scripts', [$this, 'enqueue_editor_assets']);        
+        //add_action('elementor/frontend/before_enqueue_styles', [$this, 'register_libs']);
     }
     
     /**
